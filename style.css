@@ -1,0 +1,75 @@
+
+.all{
+    text-align: center;
+    background-color: #DFFFD8;
+}
+.head1{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-family: 'Alkatra', cursive;
+    font-size: 50px;
+}
+
+button{
+    height: 140px;
+    width: 140px;
+   border: none;
+    background-color:#DFFFD8;
+    border-radius: 50px;
+   
+}
+
+.zero{
+    background-image: url(zero.png);
+    
+}
+.one{
+    background-image: url(one.png);
+}
+.two{
+    background-image: url(two.png);
+}
+.three{
+    background-image: url(three.png);
+}
+.four{
+    background-image: url(four.png);
+}
+.five{
+    background-image: url(five.png);
+   
+}
+.six{
+    background-image: url(six.png);
+}
+.seven{
+    background-image: url(seven.png);
+}
+.eight{
+    background-image: url(eight.png);
+}
+.nine{
+    background-image: url(nine.png);
+}
+
+.name{
+    display: none;
+    font-size: 50px;
+}
+
+@media Screen and (max-width : 1028px){
+
+    .head1{
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    .five{
+        margin-bottom: 8%;
+    }
+   
+}
+
+.press{
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.3;
+}
